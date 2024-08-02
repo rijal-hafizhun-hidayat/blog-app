@@ -22,5 +22,11 @@ class UserSeeder extends Seeder
             'username' => 'author',
             'password' => '$2a$10$SA3uo4bwjuZYbwQiN6ZJKuZTEhQFIdj2YDDVrDR9nWlIBshpubaeS'
         ]);
+
+        DB::table('users')->insert([
+            'name' => 'author',
+            'username' => 'author',
+            'password' => '$2a$10$SA3uo4bwjuZYbwQiN6ZJKuZTEhQFIdj2YDDVrDR9nWlIBshpubaeS'
+        ]);
     }
 }
